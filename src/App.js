@@ -25,12 +25,13 @@ function App() {
 
   return (
     <div className='container'>
+      {!mobileMenu ? <div className="opacity"></div> : null }
       <div className='row header-part'>
         <div className='col left-header'>
           <img className='logo' src={Logo} alt='logo' />
         </div>
         <div className='col right-header'>
-          <BurgerMenu onClick={handleClick}/>
+        <BurgerMenu onClick={handleClick} active={mobileMenu}/>
         </div>
       </div>
       {mobileMenu ? null : <MobileMenu />}

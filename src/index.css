@@ -96,3 +96,73 @@ body {
 .maker {
   width: 20%;
 }
+
+.hiddenMenu {
+  height: 100vh;
+  width: 66%;
+  position: absolute;
+  left: 8em;
+  background-color: white;
+  z-index: 2;
+}
+
+.opacity {
+  height: 100%;
+  width: 34%;
+  position: absolute;
+  background-color: black;
+  opacity: 30%;
+  z-index: 1;
+}
+
+.features {
+  margin-top: 2em;
+  margin-left: 0.5em;
+  border: none;
+  background-color: white;
+}
+
+.company {
+  margin-top: 0.5em;
+  margin-left: 0.5em;
+  border: none;
+  background-color: white;
+}
+
+.careers {
+  margin-top: 0.5em;
+  margin-left: 0.5em;
+  border: none;
+  background-color: white;
+}
+
+.about {
+  margin-top: 0.5em;
+  margin-left: 0.5em;
+  border: none;
+  background-color: white;
+}
+
+.login-part  {
+  margin-top: 2em;
+  display: flex;
+  justify-content: center;
+}
+
+.login {
+  border: none;
+  background-color: white;
+}
+
+.register-part  {
+  margin-top: 2em;
+  display: flex;
+  justify-content: center;
+}
+
+.register {
+  border-radius: 0.5em;
+  background-color: white;
+  width: 10em;
+  padding: 0.5em 1em 0.5em 1em;
+}
