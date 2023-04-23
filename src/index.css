@@ -1,3 +1,4 @@
+html,
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +6,93 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  height: 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container {
+  min-width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.left-header{
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.logo {
+  margin-top: 2em;
+  margin-left: 1em;
+}
+
+.right-header {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.menu-btn {
+  border: none;
+  background-color: white;
+  margin-right: 1em;
+  margin-top: 2em;
+}
+
+.hero {
+  margin-top: 2em;
+}
+
+.hero-img {
+  width: 100%;
+}
+
+.text {
+  margin-top: 2em;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.text-h1 {
+  font-weight: 700;
+}
+
+.text-p {
+  text-align: center;
+  padding: 0 2.5em 0 2.5em;
+}
+
+.text-btn {
+  border-radius: 0.5em;
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 0.5em 1em 0.5em 1em;
+}
+
+.footer {
+  margin-top: 2em;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.databiz {
+  width: 20%;
+}
+
+.audiophile {
+  width: 20%;
+}
+
+.meet {
+  width: 20%;
+}
+
+.maker {
+  width: 20%;
 }
